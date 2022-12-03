@@ -1,0 +1,6 @@
+language: python3-debian
+fprocess: python3 index.py
+build_options:
+  - name: opencv-libgl
+    packages:
+    - libgl1
